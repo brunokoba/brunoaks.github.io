@@ -4,10 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Sleek is a modern Jekyll theme focused on speed performance & SEO best practices. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/) or simply read the guide on how to [get started](/getting-started)
+I'm Brazilian undergraduate student at the Polythenic School of the University of São Paulo, majoring in Industrial Engineering. I discovered the world of Data Science just recently, when I was in my exchange year in Tokyo, but I became instantly obsessed with it! I believe the advancements in data processing and Machine Learning are changing the world as we know it in a remarkable way, and I want to be part of this.
 
-You can find the source code for the Jekyll new theme at:
-[sleek](https://github.com/janczizikow/sleek)
+I created this blog to help other beginners and enthusiasts in the field to gain some insights and motivation to also initiate their careers in this exciting world. I plan on sharing personal project guidelines, reviews for online courses and study materials, and any other interesting content related to Data Science, Analytics and Machine Learning. I hope you find some of the content useful.
 
-You can find the source code for Jekyll at
-[jekyll](https://github.com/jekyll/jekyll)
+### More about me
+
+Besides the topics mentioned above, I have a special interest in meditation, discussing politics, reading about tech trends or travelling to exotic places (India and Japan are probably my favourite destinations yet). I prefer summers over winters, Star Wars over Star Trek and Android over iOS.
+
+Also, I believe that commercial trips to Mars will be viable within some decades, the Generation Z will live until 150 years and superintelligent AI is the most important topic we should all be discussing right now.
+
+### How to contact me for a coffee cup, job interview or anything else
+
+Here's my [LinkedIn](https://www.linkedin.com/in/bruno-koba/) profile. Or click on the **Contact** page!
