@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Getting Started with Sleek
-featured-img: sleek
+featured-img: jp-enoshima2
 mathjax: true
 ---
 

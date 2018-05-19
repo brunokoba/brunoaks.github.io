@@ -24,9 +24,9 @@ navigation: # Navigation links
   - {name: 'Contact', link: '/contact'}
 
 tagline: >
-  Modern Jekyll theme focused on speed performance &amp; SEO best practices
+  Welcome to my personal blog & portfolio page.
 
-hero_img: posts/jp-enoshima.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+hero_img: posts/jp-enoshima2.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
 
 email: brunoaks@gmail.com # email for form submission
 
