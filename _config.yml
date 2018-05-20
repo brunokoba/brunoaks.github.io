@@ -1,69 +1,86 @@
-# SITE CONFIGURATION
-title: Hi, I'm Bruno. # your site title
-author: Bruno Koba # You :P
-description: > # Meta description of Homepage
-  Blog and portfolio website containing articles, photos and code. 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://brunoaks.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+#
+# This file contains configuration flags to customize your site
+#
 
-# SEO PLUGIN
-social:
-  name: Bruno Koba
-  links:
-    - https://twitter.com/brunoaks
-    #- https://www.facebook.com/ben.balter
-    - https://www.linkedin.com/in/bruno-koba/
-    #- https://plus.google.com/+BenBalter
-    - https://github.com/brunoaks
-    #- https://keybase.io/benbalter
+# Name of your site (displayed in the header)
+name: '@brunoaks'
 
-# THEME SETTINGS
-navigation: # Navigation links
-  - {name: 'Home', link: '/'}
-  - {name: 'About me', link: '/about'}
-  - {name: 'Contact', link: '/contact'}
+# Short bio or description (displayed in the header)
+description: Data Science and Machine Learning enthusiast.
 
-tagline: >
-  Welcome to my personal blog & portfolio page.
+# URL of your avatar or profile pic (you could use your GitHub profile pic)
+avatar: https://raw.githubusercontent.com/brunoaks/brunoaks.github.io/master/images/profile.jpg
 
-hero_img: posts/jp-enoshima2.jpg # Main background image: use the path from /assets/img/ => This will output /assets/img/posts/sleek_lg.jpg
+#
+# Flags below are optional
+#
 
-email: brunoaks@gmail.com # email for form submission
+# Includes an icon in the footer for each username you enter
+footer-links:
+  dribbble:
+  email: brunoaks@gmail.com
+  facebook:
+  flickr:
+  github: brunoaks/
+  instagram: 
+  linkedin: bruno-koba/
+  pinterest:
+  rss: # just type anything here for a working RSS icon
+  twitter: brunoaks/
+  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  youtube: # channel/<your_long_string> or user/<user-name>
+  googleplus: # anything in your profile username that comes after plus.google.com/
 
-twitter_username: brunoaks # replace with your_twitter_username or comment to remove link from footer
-github_username:  brunoaks # replace with your_github_username or comment to remove link from footer
-instagram_username: kobabr # replace with your_instagram_username or comment to remove link from footer
 
+# Enter your Disqus shortname (not your username) to enable commenting on posts
+# You can find your shortname on the Settings page of your Disqus account
 disqus:
-  shortname: brunoaks # to enable comments replace with your_disqus_shortname
 
-# google_tag_manager: GTM-XXXXXXX # Uncomment to enable GTM. Replace GTM-XXXXXXX with your GTM container ID
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics:
 
-service_worker: true
+# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
+# Used for Sitemap.xml and your RSS feed
+url:
 
-# BUILD SETTINGS
-markdown: kramdown
-highlighter: rouge # or pygments or null
-# theme: jekyll-sleek # Uncomment if you're using the theme as a ruby gem
-exclude:
-  - README.md
-  - node_modules
-  - script
-  - package.json
-  - package-lock.json
-  - Gemfile
-  - Gemfile.lock
-  - vendor
-  - npm-debug.log
-  - gulpfile.js
-  - sleek.jpg
+# If you're hosting your site at a Project repository on GitHub pages
+# (http://yourusername.github.io/repository-name)
+# and NOT your User repository (http://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+baseurl: ""
 
-include: ['_pages']
+#
+# !! You don't need to change any of the configuration flags below !!
+#
+
 permalink: /:title/
 
-compress_html:
-  clippings: all
+# The release of Jekyll Now that you're using
+version: v1.2.0
 
-plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
+# Jekyll 3 now only supports Kramdown for Markdown
+kramdown:
+  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  input: GFM
+  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
