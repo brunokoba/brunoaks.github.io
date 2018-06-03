@@ -1,0 +1,16 @@
+# Site settings
+title: Bruno Koba
+email: brunoaks@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  My personal page
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://brunoaks.github.io" # the base hostname & protocol for your site
+twitter_username: brunoaks
+github_username: brunoaks
+
+# Build settings
+markdown: redcarpet
+markdown_ext:  markdown,mkdown,mkdn,mkd,md
+
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "fenced_code_blocks"]
